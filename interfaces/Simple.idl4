@@ -9,7 +9,7 @@
  */
 
 procedure Simple {
-    smallstring echo_string(in smallstring s);
+    string echo_string(in string s);
     int echo_int(in int i);
     float echo_float(in float f);
     double echo_double(in double d);

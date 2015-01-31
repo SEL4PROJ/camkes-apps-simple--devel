@@ -9,12 +9,13 @@
  */
 
 #include <Echo.h>
+#include <string.h>
 
 void s__init(void) {
 }
 
 char * s_echo_string(char *s) {
-    return s;
+    return strdup(s);
 }
 
 int s_echo_int(int i) {

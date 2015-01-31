@@ -9,6 +9,7 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <Client.h>
 
 int run() {
@@ -37,9 +38,11 @@ int run() {
 
     s = s_echo_string(shello);
     printf("echo_string: \"%s\" -> \"%s\"\n", shello, s);
+    free(s);
 
     s = s_echo_string(smore);
     printf("echo_string: \"%s\" -> \"%s\"\n", smore, s);
+    free(s);
 
     p = 123;
     p2 = s_echo_parameter(p, &p1);

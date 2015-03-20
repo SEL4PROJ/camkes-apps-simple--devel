@@ -10,7 +10,6 @@
 
 config APP_SIMPLE
     bool "Simple CAmkES application"
-    default y
-    select APP_CAMKES_EXECUTIVE
+    default n
     help
         A simple application to demonstrate CAmkES functionality.

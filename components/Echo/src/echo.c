@@ -11,34 +11,34 @@
 #include <Echo.h>
 #include <string.h>
 
-void s__init(void) {
+void b__init(void) {
 }
 
-char * s_echo_string(char *s) {
+char * b_echo_string(char *s) {
     return strdup(s);
 }
 
-int s_echo_int(int i) {
+int b_echo_int(int i) {
     return i;
 }
 
-float s_echo_float(float f) {
+float b_echo_float(float f) {
     return f;
 }
 
-double s_echo_double(double d) {
+double b_echo_double(double d) {
     return d;
 }
 
-int s_echo_mix(double d) {
+int b_echo_mix(double d) {
     return d;
 }
 
-int s_echo_parameter(int pin, int *pout) {
+int b_echo_parameter(int pin, int *pout) {
     *pout = pin;
     return pin;
 }
 
-void s_increment_parameter(int *x) {
+void b_increment_parameter(int *x) {
     *x = *x + 1;
 }

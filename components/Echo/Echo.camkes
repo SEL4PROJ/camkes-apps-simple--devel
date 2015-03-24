@@ -11,6 +11,6 @@
 import "../../interfaces/Simple.idl4";
 
 component Echo {
-        provides Simple s;
+        provides Simple b;
 }
 

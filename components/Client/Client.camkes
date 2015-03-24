@@ -12,6 +12,6 @@ import "../../interfaces/Simple.idl4";
 
 component Client {
         control;
-        uses Simple s;
+        uses Simple a;
 }
 

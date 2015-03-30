@@ -14,7 +14,7 @@
 void b__init(void) {
 }
 
-char * b_echo_string(char *s) {
+char * b_echo_string(const char *s) {
     return strdup(s);
 }
 
